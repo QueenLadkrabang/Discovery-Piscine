@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            display: flex;
+            justify-content: right;
+        }
+        #WTF {
+            font-size: 150px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+</head>
+
+<body>
+    <center>
+        <h1 id="WTF">-so bigger-&lt;h1&gt;</h1>
+    </center>
+    <div>
+        <figure>
+            <img src="https://shorturl.at/dDHV5" width="300" height="300">
+            <figcaption>
+                <a href="https://shorturl.at/CDGNQ">มาดูแมวห้องเรามั้ย</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://shorturl.at/dMRX6" width="300" height="300">
+            <figcaption>
+                <a href="https://shorturl.at/mr128">ห้องเรามาทางนี้</a>
+            </figcaption>
+        </figure>
+    </div>
+    <hr>
+    <p>
+        <i style="color: salmon;">
+            ©Sunny 2023
+        </i>
+    </p>
+    <div id="hello">
+        
+    </div>
+    <!--hello-->
+    <div id="world">
+    </div>
+    <script>
+        console.log("hello world")
+        let message="hello welcome"
+        document.getElementById("hello").innerHTML=message
+        console.log("hi"+document.getElementById("hello").innerHTML)
+        <!--hello-->
+        document.getElementById("world").innerHTML=message+" world"
+        console.log(message)
+    </script>
+</body>
+
+</html>
