@@ -1,0 +1,54 @@
+.p1 {
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    width: 27rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 100; */
+}
+
+.p2 {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    width: 31rem;
+    height: 7rem;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+
+.Parallax {
+    background-image: url(https://shorturl.at/alG06);
+    background-color: rgba(255, 255, 255, 0.45);
+    opacity: 0.5;
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 0; */
+}
+
+.Parallax2 {
+    background-image: url(https://shorturl.at/fnu67);
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
