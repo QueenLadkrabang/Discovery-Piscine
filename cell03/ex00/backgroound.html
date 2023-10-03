@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="backgrooung.css">
+</head>
+<body>
+    <button onclick="เปลี่ยนสิหญิง()">เปลี่ยนสิหญิง</button>
+</body>
+<script>
+    function เปลี่ยนสิหญิง() {
+      document.body.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`;
+    //   document.body.style.backgroundColor = `rgb()`;
+      console.log("hello")
+    }
+    เปลี่ยนสิหญิง()
+</script>
+</html>
